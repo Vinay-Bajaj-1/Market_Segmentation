@@ -1,0 +1,38 @@
+🧩 Problem Statement
+Goal:
+To segment customers into distinct groups based on their transaction behavior and demographic/card data, using unsupervised learning techniques. The aim is to discover hidden patterns in customer behavior to help the business tailor marketing, detect anomalies, or improve product offerings.
+
+🔍 Why? (Business Context)
+Financial institutions and businesses often have thousands of customers, each with different behaviors. But without labels like "loyal", "high risk", or "deal seeker", it becomes hard to:
+Know which customers to reward or retain
+Spot potentially risky or dormant customers
+Create targeted offers for different groups
+So we’ll use clustering to automatically identify segments based on actual customer behavior.
+
+💡 What Will We Do?
+We will:
+
+Preprocess raw data from transactions, customer profiles, and card usage
+Engineer behavioral features like:
+Transaction frequency
+Average spend
+Recency of last transaction
+Diversity in card usage
+Demographics (age group, region, etc.)
+Apply clustering (e.g., KMeans or DBSCAN) to group customers
+
+
+Analyze each cluster to give them a business-friendly label like:
+“Frequent Spenders”
+“Dormant Users”
+“Low Volume, High Value”
+“Infrequent but Loyal”
+
+Visualize the clusters using 2D projection (PCA or t-SNE)
+(Optional) Recommend actions for each group
+
+🎯 Expected Outcome
+3–6 meaningful customer segments
+Visuals showing how customers group together
+A profile table summarizing each segment’s characteristics
+Business insights that could influence marketing or product decisions
