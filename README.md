@@ -8,6 +8,8 @@ The primary goal of this project is to:
 2. Profile each cluster to understand the characteristics of each customer group.
 3. Visualize key features across the clusters to help stakeholders understand the customer segmentation.
 
+![Cluster Visualization](img/segmented.png)
+
 ## Key Features Analyzed
 1. The following features were used to profile and segment customers:
 2. Total Transactions (total_txns): The total number of transactions made by each customer.
